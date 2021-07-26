@@ -7,9 +7,8 @@ import Solution from "./Solution";
 const winner = ["blue", "yellow", "green", "red", "brown", "purple"];
 const WinnerRow = []
 for (let j = 0; j < 4; j++) {
-    WinnerRow.push(winner[Math.floor(Math.random() * 4)])
+    WinnerRow.push(winner[Math.floor(Math.random() * 6)])
 }
-console.log(WinnerRow)
 
 const Game = () => {
 
